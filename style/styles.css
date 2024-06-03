@@ -142,24 +142,53 @@ footer p {
 
 /* Estilos da Página Home */
 
-#home main {
-    margin-top: 80px;
+#home .first-section {
+    background: linear-gradient(to right, rgba(14, 60, 88, 1), rgba(14, 60, 88, 0.85));
+    margin-bottom: 80px;
+    padding-top: 80px;
 }
 
-#home section h1 {
-    margin-bottom: 60px;
+#home .first-section h1 {
+    color: var(--gray-scale-0);
+    margin-bottom: 10px;
+}
+#home .first-section h2 {
+    font-size: 1.8em;
+    color: var(--gray-scale-1);
+    margin-bottom: 10px;
+}
+#home .first-section h3 {
+    font-size: 1.8em;
+    color: var(--gray-scale-2);
+    margin-bottom: 10px;
 }
 
-#home section h2 {
-    margin-bottom: 20px;
+#home .first-section p {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+    color: var(--gray-scale-3);
 }
 
-#home section div {
-    margin-bottom: 60px;
+#home .second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 200px;
+
+    gap: 60px;
+}
+#home .second-section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
 }
 
-#home section p {
-    font-size: 1.1rem;
+#home .second-section img {
+    width: 50px;
 }
 
 /* Estilos da Página Sobre */
