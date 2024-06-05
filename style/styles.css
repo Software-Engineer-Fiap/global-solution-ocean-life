@@ -525,6 +525,7 @@ footer p {
 
 #pesquisa .primeira-secao-grid img {
     width: 100%;
+    border-radius: 2px;
 }
 
 #pesquisa .primeira-secao-grid button {
@@ -550,4 +551,14 @@ footer p {
 #pesquisa .div-artigos p {
     margin-bottom: 20px;
     max-width: 96%;
+}
+
+#pesquisa .div-artigos div {
+    margin-bottom: 20px;
+}
+
+#pesquisa .div-artigos a {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: var(--color-primary);
 }
