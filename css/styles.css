@@ -22,10 +22,6 @@ body {
     --gray-scale-5: #717171;
 }
 
-main {
-    min-height: 85vh;
-}
-
 .container1 {
     max-width: 1120px;
     margin: 0 auto;
@@ -140,28 +136,78 @@ footer p {
     font-weight: 400;
 }
 
-/* Estilos da Página Home */
-
-#home main {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-#home section h1 {
-    margin-bottom: 80px;
-}
-
-#home section h2 {
+footer div {
     margin-bottom: 20px;
 }
 
-#home section div {
-    margin-bottom: 60px;
+footer div h2 {
+    color: var(--gray-scale-1);
+    font-family: var(--type-second);
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    margin-bottom: 10px;
 }
 
-#home section p {
-    font-size: 1.1rem;
+footer div p {
+    color: var(--gray-scale-3);
+    font-family: var(--type-second);
+    font-size: 1rem;
+    font-weight: 500;
 }
+
+/* Estilos da Página Home */
+
+#home main {
+    margin: 0px 0px 80px;
+}
+
+#home h1 {
+    margin-top: 80px;
+    margin-bottom: 8%;
+}
+
+#home .primeira-secao-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: flex-end;
+}
+
+#home .primeira-secao-grid h2 {
+    margin-bottom: 60px;
+    width: 85%;
+    position: relative;
+}
+
+#home .primeira-secao-grid h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: var(--color-details);
+    position: absolute;
+    margin-top: 30px;
+}
+
+#home .primeira-secao-grid p {
+    margin-bottom: 32px;
+    width: 85%;
+}
+
+#home .primeira-secao-grid img {
+    width: 73%;
+    border-radius: 2px;
+}
+
+#home .primeira-secao-grid button {
+    margin-top: 12px
+}
+
+#home .video {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 
 /* Estilos da Página Sobre */
 
